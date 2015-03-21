@@ -4,10 +4,7 @@
 baseurl:
 
 # Site live URL
-#url: http://efcasado.github.io
-
-# Localhost
-url: http://127.0.0.1:4000
+url: http://efcasado.github.io
 
 # Harmony theme configuration. Please change accordingly.
 harmony:
