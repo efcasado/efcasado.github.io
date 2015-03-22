@@ -8,8 +8,6 @@ categories:
 permalink: quviq-quickcheck-intro
 ---
 
-# Erlang QuickCheck
-
 ## What is QuickCheck?
 
 `QuickCheck` is a language for stating properties of programs.
