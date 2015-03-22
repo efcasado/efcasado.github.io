@@ -37,12 +37,6 @@ databases in the market).
 Riak Core is an open-source project and can be downloaded from
 its [GitHub repository](https://github.com/basho/riak_core).
 
-However, I would recommend you to use a simple template I
-have created. You can download my template from [here]().
-This template will let you bootstrap a Riak Core application
-by just running `make init`. For more information on how to
-use the template, please, read its `README` file.
-
 
 ## Concepts
 
@@ -53,7 +47,7 @@ nodes (hereinafter referred to as vnodes).
 ![Riak Core key-space]({{ site.url }}/assets/images/ring.png)
 
 Riak Core has, at its core, a 160-bit circular key-space like
-the one in the image above (which by the way I got from
+the one in the image above (which by the way I've got from
 Basho's website). Note that the ring is divided into
 a fixed number of partitions, which determine the number of
 vnodes in the system. Riak Core uses consistent hashing[^1] to
